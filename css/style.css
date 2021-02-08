@@ -57,6 +57,21 @@ img {
     width: 100%;
 }
 
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+/********************************************
+ Flex Combinations:
+*********************************************/
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /********************************************
  Button Style:
 *********************************************/
@@ -87,9 +102,6 @@ img {
 
 .nav__container {
     padding: 2rem 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .nav__list {
@@ -103,4 +115,29 @@ img {
 .nav__item-link {
     color: #000000;
     padding: .5rem;
+}
+
+/********************************************
+ Intro Section:
+*********************************************/
+
+.intro__container {
+    padding: 8rem 0;
+}
+
+.intro__text {
+    width: 47rem;
+}
+
+.intro__title {
+    font-size: 3rem;
+}
+
+.intro__description {
+    margin: 2rem 0;
+}
+
+.intro__video {
+    width: 46rem;
+    height: 26rem;
 }
