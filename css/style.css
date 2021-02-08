@@ -239,3 +239,45 @@ iframe {
 .system__name {
     margin-bottom: 1.6rem;
 }
+
+/********************************************
+ Order Section:
+*********************************************/
+
+.order {
+    padding: 5.6rem 0;
+    background-color: var(--blue);
+    text-align: center;
+    color: #ffffff;
+}
+
+.order__sub-title {
+    width: 71.9rem;
+    margin: 1.6rem auto;
+}
+
+.order__form {
+    background-color: #ffffff;
+    width: 35rem;
+    margin: 0 auto;
+    padding: 2.4rem;
+    border-radius: var(--border-radius);
+}
+
+.order__form input,
+.order__form select {
+    width: 100%;
+    padding: 1.6rem;
+    border-radius: var(--border-radius);
+    background-color: #f3f3f3;
+    border: none;
+    outline: none;
+    margin-bottom: 1.6rem;
+    color: #696969;
+}
+
+.order__form button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
