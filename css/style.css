@@ -1,0 +1,57 @@
+:root {
+    --blue: #00BAFC;
+    --shadow-color: rgba(0, 0, 0, 0.1);
+    --border: .5rem;
+    --footer-color: #191919;
+}
+
+/********************************************
+ General Rules:
+*********************************************/
+
+html {
+    font-size: 10px;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    list-style: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.6rem;
+}
+
+img {
+    width: 100%;
+}
+
+/********************************************
+ Nav Section: 
+*********************************************/
