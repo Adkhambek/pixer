@@ -72,6 +72,13 @@ iframe {
     align-items: center;
 }
 
+.flex-reverse {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
 /********************************************
  Button Style:
 *********************************************/
@@ -107,6 +114,7 @@ iframe {
 
 .nav__list {
     display: flex;
+    align-items: center;
 }
 
 .nav__item:not(:last-child) {
@@ -148,7 +156,7 @@ iframe {
 *********************************************/
 
 .service {
-    padding: 5.6rem;
+    padding: 5.6rem 0 0;
     text-align: center;
 }
 
@@ -189,4 +197,45 @@ iframe {
 
 .service__link_underline:hover {
     text-decoration: underline;
+}
+
+/********************************************
+ System Section;
+*********************************************/
+
+.system {
+    padding: 5.6rem 0;
+    text-align: center;
+}
+
+.system__sub-title {
+    width: 71.9rem;
+    margin: 1.6rem auto 4rem;
+}
+
+.system__list {
+    text-align-last: left;
+    margin-bottom: 4rem;
+}
+
+.system__item:not(:last-child) {
+    margin-bottom: 4.8rem;
+}
+
+.system__photo img {
+    height: 100%;
+    object-fit: contain;
+}
+
+.system__photo {
+    width: 30%;
+    height: 27.7rem;
+}
+
+.system__text {
+    width: 60%;
+}
+
+.system__name {
+    margin-bottom: 1.6rem;
 }
