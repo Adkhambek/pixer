@@ -79,6 +79,12 @@ iframe {
     flex-direction: row-reverse;
 }
 
+.flex-start {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 /********************************************
  Button Style:
 *********************************************/
@@ -280,4 +286,37 @@ iframe {
     border: none;
     outline: none;
     cursor: pointer;
+}
+
+/********************************************
+ Footer Section:
+*********************************************/
+
+.footer {
+    background-color: var(--footer-color);
+    color: #ffffff;
+    padding: 5.6rem 0;
+}
+
+.footer__copyright {
+    width: 32rem;
+}
+
+.footer h2 {
+    margin-bottom: 1.6rem;
+}
+
+.footer li:not(:last-child) {
+    margin-bottom: 1rem;
+}
+
+.footer__social__item a {
+    display: flex;
+    align-items: center;
+}
+
+.footer__social__item img {
+    width: 2.2rem;
+    display: block;
+    margin-right: 0.8rem;
 }
