@@ -30,19 +30,19 @@ html {
 
 @media (max-width: 992px) {
     html {
-        font-size: 10px;
+        font-size: 9px;
     }
 }
 
 @media (max-width: 768px) {
     html {
-        font-size: 10px;
+        font-size: 8.5px;
     }
 }
 
 @media (max-width:576px) {
     html {
-        font-size: 10px;
+        font-size: 8px;
     }
 }
 
@@ -171,6 +171,7 @@ button {
 
     .flex-start {
         flex-direction: column;
+        align-items: center;
     }
 }
 
@@ -369,6 +370,10 @@ button {
         display: flex;
         flex-direction: column;
     }
+
+    .service__link {
+        margin-bottom: 2rem;
+    }
 }
 
 /********************************************
@@ -386,7 +391,7 @@ button {
 }
 
 .system__list {
-    text-align-last: left;
+    text-align: left;
     margin-bottom: 4rem;
 }
 
@@ -411,6 +416,19 @@ button {
 .system__name {
     margin-bottom: 1.6rem;
 }
+
+/* Responsive: */
+
+@media (max-width: 768px) {
+    .system__sub-title {
+        width: 80%;
+    }
+
+    .system__list {
+        text-align: center;
+    }
+}
+
 
 /********************************************
  Order Section:
@@ -454,6 +472,18 @@ button {
     cursor: pointer;
 }
 
+/* Responsive: */
+
+@media (max-width: 768px) {
+    .order__sub-title {
+        width: 80%;
+    }
+
+    .order__form {
+        width: 80%;
+    }
+}
+
 /********************************************
  Footer Section:
 *********************************************/
@@ -485,4 +515,28 @@ button {
     width: 2.2rem;
     display: block;
     margin-right: 0.8rem;
+}
+
+/* Responsive: */
+
+@media (max-width: 768px) {
+    .footer {
+        text-align: center;
+    }
+
+    .footer__copyright {
+        width: 80%;
+    }
+
+    .footer__copyright {
+        margin: 0 auto;
+    }
+
+    .footer__link {
+        margin: 2rem 0;
+    }
+
+    .footer__social__item a {
+        justify-content: center;
+    }
 }
