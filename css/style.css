@@ -10,10 +10,44 @@
 *********************************************/
 
 html {
-    font-size: 10px;
+    font-size: 11px;
     box-sizing: border-box;
 }
 
+/* Responsive: */
+
+@media (max-width: 1400px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    html {
+        font-size: 9.5px;
+    }
+}
+
+@media (max-width: 992px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+@media (max-width:576px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+*::before,
+*::after,
 * {
     margin: 0;
     padding: 0;
@@ -26,8 +60,40 @@ body {
 }
 
 .container {
-    width: 1140px;
+    width: 85%;
     margin: 0 auto;
+}
+
+/* Responsive: */
+
+@media (max-width: 1400px) {
+    .container {
+        width: 1320px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .container {
+        width: 1140px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        width: 930px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 720px;
+    }
+}
+
+@media (max-width:576px) {
+    .container {
+        width: 90%;
+    }
 }
 
 a {
@@ -84,6 +150,21 @@ iframe {
     justify-content: space-between;
     align-items: flex-start;
 }
+
+/* Responsive: */
+
+@media (max-width: 768px) {
+    .flex {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .flex-reverse {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+}
+
 
 /********************************************
  Button Style:
